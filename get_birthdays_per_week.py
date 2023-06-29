@@ -49,4 +49,5 @@ def get_birthdays_per_week(*args) -> list:
     print(mond)
 
 
-get_birthdays_per_week()
+if __name__ == '__main__':
+    get_birthdays_per_week()
