@@ -35,10 +35,8 @@ def get_birthdays_per_week(*args) -> list:
                         next += x
                     else:
                         next += f', {kee["name"]}'
-
                 else:
                     mon = datetime(year=2023, day=3, month=7)
-                    # td1 = datetime.weekday(mon)
                     happy_day = datetime.strftime(mon, '%A')
                     if not mond:
                         x = f"{happy_day} : {kee['name']}"
